@@ -7,8 +7,9 @@ A video of the project can be found here: https://www.youtube.com/watch?v=xjx4mb
 It is still an experimental version and further improvements will have to be done.
 
 ## Contributors
-- Stephane VUJASINOVIC
-- Frederic UHRWEILLER
+- Anukriti Rawat
+- Anupriya Shree
+- Sayantani Bhattacharya
 
 ## Requirements
 
