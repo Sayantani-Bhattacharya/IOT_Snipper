@@ -3,9 +3,10 @@ Idea is to develop an automatic target shooter where, the gun points to a partic
 
 #Problem Statement
 
-Crime and terrorism, which are increasing at a huge rate,  require serious monitoring and controlling. During encounters, terror attacks, or tracking down the criminals and terrorists, soldiers and police force suffer a lot of deadly injuries and undergo fatal situations. Risking their lives. Carrying on criminal hunt  in difficult topography  is not an easy task, life threats and risks are 
-involved. While shooting, snipers  have  risks of being identified, which might lead to their death.  Target acquisition  requires great  accuracy and exactness, target estimation methods also needs to precisely locate the location of the enemy, even a small  error causes huge 
+Crime and terrorism, which are increasing at a huge rate,  require serious monitoring and controlling. During encounters, terror attacks, or tracking down the criminals and terrorists, soldiers and police force suffer a lot of deadly injuries and undergo fatal situations. Risking their lives. Carrying on criminal hunt  in difficult topography  is not an easy task, life threats and risks are involved. While shooting, snipers  have  risks of being identified, which might lead to their death. Target acquisition requires great  accuracy and exactness, target estimation methods also needs to precisely locate the location of the enemy, even a small  error causes huge 
 risks of lives.
+
+
 
 #Solution
 
@@ -15,3 +16,4 @@ Arduino IDE(Arduino Uno board) and PySerial were used to drive the motors (a ser
 The python file(facedetection.py) is detecting the frontal face of the human using haarcascade classifier and then using lbph face recognition the face is being recognised for the particular person with whom images it has been trained with. 
 Communication is established between python file(facedetection.py) and file containing arduino code(targetshooter.ino or finaltarget.ino) using pyserial.
 The .ino file contains the arduino code for driving the motors which will automatise the movement of the gun.
+
