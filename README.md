@@ -19,7 +19,7 @@ The .ino file contains the arduino code for driving the motors which will automa
 
 
 # Hardware Used:
-2 Web Camera, Arduino UNO, 2 Servo Motors, Gun, Wheel encoders, PID controllers, Raspberry Pi.
+2 Web Camera, Arduino UNO, 2 Stepper Motors, Gun, Wheel encoders, PID controllers, Raspberry Pi, Batterey power supply 
 
 # Software Used:
 Open CV, PySerial 
