@@ -36,6 +36,16 @@ When the motors reach the tolerance limit of the coordinate Set Point values, ob
 
 First, we perform tunning to get the optimal values of Gain parameters of the controller. Operationally, we will then estimate angular positon from position sensor readings. These are used as imput for the PID controller which will reduce the error between target and measured value, increasing the accuracy of shooting.
 
+# facedetection.py
+
+```
+depth = (focalLength * baseline) / (disparity*0.264)
+cX=(int)(cX/480) #Scaling the centroid co-ordinates 
+cY=(int)(cY/480) 
+ #(sending the x, y, z coordinates through serial to arduino file) 
+ser.write(cX)
+ser.write(cY) ser.write(-depth[cX,cY])
+```
 
 # Hardware:
 2 Web Camera, Arduino UNO, Servo Motor, DC Motor, Electric Gun, PID controllers, Raspberry Pi, Battery power supply, Position sensor 
