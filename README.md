@@ -6,6 +6,15 @@
 Crime and terrorism, which are increasing at a huge rate,  require serious monitoring and controlling. During encounters, terror attacks, or tracking down the criminals and terrorists, soldiers and police force suffer a lot of deadly injuries and undergo fatal situations. Risking their lives. Carrying on criminal hunt  in difficult topography  is not an easy task, life threats and risks are involved. While shooting, snipers  have  risks of being identified, which might lead to their death. Target acquisition requires great  accuracy and exactness, target estimation methods also needs to precisely locate the location of the enemy, even a small  error causes huge 
 risks of lives.
 
+# Installation:
+
+Use the package manager pip to install the app
+
+```
+pip install cv2
+pip install numpy
+pip install pyserial
+```
 
 # Solution:
 
