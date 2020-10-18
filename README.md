@@ -71,10 +71,10 @@ ser.write(depth[cX,cY])
 # Software:
 OpenCV, PySerial, numpy
 
-# Team Name 
+## Team Name 
 Creators
 
-# Team Members
+## Team Members
 Anupriya Shree
 Sayantani Bhattacharya
 Anuktiti Rawat
