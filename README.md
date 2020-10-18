@@ -25,9 +25,7 @@ Communication is established between python file(facedetection.py) and file cont
 
 When the motors reach the tolerance limit of the coordinate Set Point values, obtained from the detection algorithm,  that specific person will be pointed by a laser beam. The power supply circuit of the gun-trigger mechanism will be completed using Arduino Code, and bullet will be fired.
 
-
-
-
+First, we perform tunning to get the optimal values of Gain parameters of the controller. Operationally, we will then estimate angular positon from position sensor readings. These are used as imput for the PID controller which will reduce the error between target and measured value, increasing the accuracy of shooting.
 
 
 # Hardware:
