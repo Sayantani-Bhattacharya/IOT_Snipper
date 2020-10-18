@@ -11,7 +11,7 @@ risks of lives.
 Use the package manager pip to install the app
 
 ```
-pip install cv2
+pip install cv2 
 pip install numpy
 pip install pyserial
 ```
@@ -45,6 +45,10 @@ First, we perform tunning to get the optimal values of Gain parameters of the co
 # facedetection.py
 
 ```
+import cv2 as cv
+import serial as ser
+import numpy as np
+
 depth = (focalLength * baseline) / (disparity*0.264)
 cX=(int)(cX/480) #Scaling the centroid co-ordinates 
 cY=(int)(cY/480) 
