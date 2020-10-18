@@ -13,12 +13,19 @@ The idea is to develop automatic target shooter that will detect a particular pe
 
 # Plan of Execution:
 
-The automatic target shooter can detect a particular person (here, it refers to criminals or terrorists) and will aim and shoot at them. It can also be substituted for a sniper.  24 hours surveillance is being provided, through the cameras. Two cameras are installed for viewing a stereoscopic pair of separate images, depicting as a single three-dimensional image, using Computer Vision. When the images of the specified person will be captured by the cameras, in their field view, the gun will adjust its position, aiming at the target. A classifier is built and trained to classify the specified person, then, whenever that person appears in the field of view of the cameras, that specific person will be pointed by a laser beam.
+The automatic target shooter can detect a particular person (here, it refers to criminals or terrorists) and will aim and shoot at them.
+
+Two cameras are installed for viewing a stereoscopic pair of separate images, depicting as a single three-dimensional image, using Computer Vision. When the images of the specified person will be captured by the cameras, in their field view, the gun will adjust its position, aiming at the target. A classifier is built and trained to classify the specified person, then, whenever that person appears in the field of view of the cameras, that specific person will be pointed by a laser beam.
 
 Arduino IDE(Arduino Uno board) and PySerial were used to drive the motors (a servo and a dc motor) which were used for positioning the gun.  
+
 The python file(facedetection.py) is detecting the frontal face of the human using haarcascade classifier and then using lbph face recognition the face is being recognised for the particular person with whom images it has been trained with. 
-Communication is established between python file(facedetection.py) and file containing arduino code(targetshooter.ino or finaltarget.ino) using pyserial.
-The .ino file contains the arduino code for driving the motors which will automatise the movement of the gun.
+
+Communication is established between python file(facedetection.py) and file containing arduino code(targetshooter.ino or finaltarget.ino) using pyserial. The .ino file contains the arduino code for driving the motors which will automatise the movement of the gun.
+
+When the motors reach the tolerance limit of the coordinate Set Point values, obtained from the detection algorithm,  that specific person will be pointed by a laser beam. The power supply circuit of the gun-trigger mechanism will be completed using Arduino Code, and bullet will be fired.
+
+
 
 
 
