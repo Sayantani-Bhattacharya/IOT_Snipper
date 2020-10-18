@@ -40,7 +40,7 @@ Communication is established between python file(facedetection.py) and file cont
 
 Further Implementation - 
 
-raspberry pi can be used to connect with firebase, helping in retrieving data of newly recognised terrorists.
+Raspberry pi can be used to connect with firebase, helping in retrieving data of newly recognised terrorists.
 The serial communication via pyserial to arduino is quite slow which results in a lagging motion of the motors, we can improve the communication gap using raspberry pi.
 The counter of the bullets shots can also b maintained.
 
