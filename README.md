@@ -40,7 +40,7 @@ When the motors reach the tolerance limit of the coordinate Set Point values, ob
 
 First, we perform tunning to get the optimal values of Gain parameters of the controller. Operationally, we will then estimate angular positon from position sensor readings. These are used as imput for the PID controller which will reduce the error between target and measured value, increasing the accuracy of shooting.
 
-# facedetection.py
+# targetdetection.py
 
 ```
 import cv2 as cv
