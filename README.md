@@ -29,7 +29,7 @@ First, we perform tunning to get the optimal values of Gain parameters of the co
 
 
 # Hardware:
-2 Web Camera, Arduino UNO, Servo Motor, DC Motor, Electric Gun, PID controllers, Raspberry Pi, Batterey power supply. 
+2 Web Camera, Arduino UNO, Servo Motor, DC Motor, Electric Gun, PID controllers, Raspberry Pi, Battery power supply, Position sensor 
 
 # Software:
 Open CV, PySerial 
