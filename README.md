@@ -11,6 +11,7 @@ Use the package manager pip to install the app
 pip install cv2 
 pip install numpy
 pip install pyserial
+pip install dlib
 ```
 
 # Solution:
@@ -27,7 +28,7 @@ https://youtu.be/_svrFGHh7yc
 
 The automatic target shooter can detect a particular person (here, it refers to criminals or terrorists) and will aim and shoot at them.
 
-Two cameras are installed for viewing a stereoscopic pair of separate images, depicting as a single three-dimensional image, using Computer Vision. When the images of the specified person will be captured by the cameras, in their field view, the gun will adjust its position, aiming at the target. A classifier is built and trained to classify the specified person, then, whenever that person appears in the field of view of the cameras, that specific person will be pointed by a laser beam.
+Two cameras are installed for viewing a stereoscopic pair of separate images, depicting as a single three-dimensional image, using Computer Vision. When the images of the specified person will be captured by the cameras, the three cordinates, x, y, and z will be found using scaling. The z coordinate will be found using depth map calculated using stereoscopic pair of images. These coordinates will be transferred to arduino where the coordinates will be converted into angles, for the movement of the motors. Serial communication will be enabled via pyserial between the python file and the arduino. Thus, whenever the enemy(recognised image person) will appear in their field view, the gun will adjust its position, aiming at the target. A classifier is built and trained to classify the specified person, then, whenever that person appears in the field of view of the cameras, that specific person's frontal face will be detected, then it's centroid will be calculated, and pointed by a laser beam.
 
 Arduino IDE(Arduino Uno board) and PySerial were used to drive the motors (a servo and a dc motor) which were used for positioning the gun.  
 
