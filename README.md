@@ -21,9 +21,11 @@ Communication is established between python file(facedetection.py) and file cont
 The .ino file contains the arduino code for driving the motors which will automatise the movement of the gun.
 
 
-# Hardware Used:
-2 Web Camera, Arduino UNO, 2 Stepper Motors, Gun, Wheel encoders, PID controllers, Raspberry Pi, Batterey power supply 
 
-# Software Used:
+
+# Hardware:
+2 Web Camera, Arduino UNO, Servo Motor, DC Motor, Electric Gun, PID controllers, Raspberry Pi, Batterey power supply. 
+
+# Software:
 Open CV, PySerial 
 
