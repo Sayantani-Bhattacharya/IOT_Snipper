@@ -20,6 +20,9 @@ pip install pyserial
 
 The idea is to develop automatic target shooter that will detect a particular person (here, it refers to criminals or terrorists) and will aim and shoot at them. It can also be substituted for a sniper. 24 hours surveillance is being provided, through the cameras. When the images of the specified person will be captured by the cameras, in their field view, the gun will adjust its position, aiming at the target and will be pointed by a laser beam. 
 
+## Video Link 
+https://youtu.be/_svrFGHh7yc
+
 # Plan of Execution:
 
 The automatic target shooter can detect a particular person (here, it refers to criminals or terrorists) and will aim and shoot at them.
