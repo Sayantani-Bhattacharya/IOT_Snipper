@@ -1,6 +1,7 @@
 import cv2
 import numpy as np
 import serial
+import face_recognition
 
 face_cascade = cv2.CascadeClassifier("F://haarcascade_frontalface_default.xml")
 focalLength=3.85
