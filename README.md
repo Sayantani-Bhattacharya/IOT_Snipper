@@ -23,6 +23,9 @@ The idea is to develop automatic target shooter that will detect a particular pe
 ## Video Link 
 https://youtu.be/_svrFGHh7yc
 
+## Model image
+![Model image](https://github.com/Sayantani-Bhattacharya/IOT_Snipper/blob/master/image.jpeg?raw=true)
+
 # Plan of Execution:
 
 The automatic target shooter can detect a particular person (here, it refers to criminals or terrorists) and will aim and shoot at them.
