@@ -58,5 +58,5 @@ ser.write(depth[cX,cY])
 2 Web Cameras, Arduino UNO, Servo Motor, Stepper Motor, Electronic Gun, PID controllers, Raspberry Pi, Battery power supply, Position sensor 
 
 # Software:
-OpenCV, PySerial 
+OpenCV, PySerial, numpy
 
