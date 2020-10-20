@@ -77,5 +77,5 @@ Creators
 ## Team Members
 Anupriya Shree
 Sayantani Bhattacharya
-Anuktiti Rawat
+Anukriti Rawat
 
