@@ -79,3 +79,12 @@ Anupriya Shree
 Sayantani Bhattacharya
 Anukriti Rawat
 
+
+## References
+•	Shajahan. J.A, “Target detecting defense humanoid sniper” Third international conference on computing communication & networking (ICCCNT)-2012.
+•	Computer controlled USB BB sniper with video camera scope sight, testedat US Army. 
+•	Henry A. Rowley, Shumeet Baluja, and Takeo Kanade. “Neural network based face detection,” IEEE Transactions on Pattern Analysis and Machine Intelligence, 20(I), pp.23-38,   1998.
+•	M. Turk and A. Pentland, “Eigenfaces for recognition,” J. of Cognitive Neuroscience, vol.3, no.1, pp. 71-86, 1991.
+•	Basic motion detection and tracking with Python and OpenCV https://www.pyimagesearch.com/2015/05/25/basic-motion-detection-and-tracking-with-python-and-opencv/
+•	DRDO newsletter - Published by Director, DESIDOC, Metcaffe house,Delhi-110 054.
+
